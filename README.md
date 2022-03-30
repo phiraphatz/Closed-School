@@ -48,6 +48,9 @@ end)
 Section:NewSlider("Health", "Changes Your Health.", 1000, 100, function(s)
     game.Players.LocalPlayer.Character.Humanoid.Health = s
 end)
+Section:NewButton("Become a F.Dog", "Become is a F.dog", function()
+fireclickdetector(game:GetService("Workspace").Drog.Part.ClickDetector)
+end)
 
 local Section = Tab:NewSection("Select Player!")
 Plr = {}
